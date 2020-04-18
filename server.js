@@ -5,7 +5,8 @@ const apiRoutes = require('./Routes');
 
 const http = require('http');
 const PORT = process.env.PORT || 8080;
-
+const PROJECT = process.env.PROJECT_NAME;
+const TEAM = process.env.TEAM_NAME
 var app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
@@ -21,7 +22,7 @@ app.use((req, res, next) => {
 
 app.use(apiRoutes);
 app.use(express.static('public'));
-
+console.log(`SERVER CONFIGURATION SUCCESSFULL FOR TEAM : ${TEAM} on project ${PROJECT}`);
 app.listen(PORT, function () {
-	    console.log('SERVE => Starting server on port: ' + PORT);
+	    console.log(`${TEAM} -> Starting ${PROJECT} server on port: ${PORT}`);
 });

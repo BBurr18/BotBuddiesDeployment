@@ -4,7 +4,7 @@ const defaultRoutes = require('./defaultRoutes');
 const commitRoutes = require ('./commitRoutes');
 const commentRoutes = require ('./commentRoutes');
 
-// connects all routes h
+// connects all routes
 router.use(defaultRoutes);
 router.use(commitRoutes);
 router.use(commentRoutes);
