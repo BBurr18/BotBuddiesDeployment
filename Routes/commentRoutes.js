@@ -1,4 +1,5 @@
 const router = require('express').Router();
+const route_start = '/comment';
 
 //Comment Route
 router.get('/comment', (req, res, next) => {
