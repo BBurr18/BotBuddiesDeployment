@@ -1,0 +1,3 @@
+THIS DIRECTORY CONTAINS MIDDLEWARE TO BE USED BY EXPRESS
+
+These modules are use with the app.use(<import>) functionality.

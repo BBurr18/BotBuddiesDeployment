@@ -1,0 +1,83 @@
+html{
+    background-color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header{
+    background-color: rgb(49, 95, 163);
+    border-radius: 2vw;
+    height: 10vw;
+}
+
+.shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1{
+    padding-top: 2vw;
+    color: white;
+    text-align: center;
+    font-size: 4vw;
+}
+
+#s-logo{
+    background-color: white;
+    border-radius: 2vw;
+    text-align: center;
+}
+
+#logo{
+    height: 20vw;
+    border-radius: 10vw;
+}
+
+#p-description{
+    font-size: 2vw;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+    background-color: rgb(49, 95, 163);
+    border-radius: 2vw;
+    height: 5vw;
+    padding-top: 2vw;
+}
+
+#d-features{
+    color: black;
+    font-size: 1vw;
+    display: flex;
+    text-align: center;
+}
+
+.feature-icon{
+    height: 15vw;
+    border-radius: 2vw;
+}
+
+#d-notification{
+    flex-grow: 4;
+}
+
+#d-delete{
+    flex-grow: 4;
+}
+
+#d-prevent{
+    flex-grow: 1;
+}
+
+footer{
+    background-color: rgb(49, 95, 163);
+    border-radius: 2vw;
+    height: 6vw;
+    text-align: center;
+}
+
+#p-footer{
+    color: white;
+    font-size: 1vw;
+    padding-top: 2.5vw;
+}
